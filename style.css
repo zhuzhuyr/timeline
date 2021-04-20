@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.popup{
+  background: #fff;
+  color: #000;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 100;
+}
+.popup .content{
+  width: 90%;
+  height: 100%;
+  padding:0 5%;
+  font-size: 1rem;
+  box-shadow: 1px 1px 1px #ccc;
+  border-radius: 2px;
+}
+.popup .close{
+  position: absolute;
+  right: 4px;
+  top: 0;
+  font-size: 1rem;
+  padding: 2px;
+  color: #ccc;
+  cursor: pointer;
+}
+.popup .arrow{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  float: left;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color:#fff transparent transparent transparent;
+}
